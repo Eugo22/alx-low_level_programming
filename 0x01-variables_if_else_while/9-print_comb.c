@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: print comb of numbers 
+ * Description: print a combination of numbers separated by commas
  * Return: Always (0) (success)
  */
 int main(void)
@@ -16,6 +16,7 @@ int main(void)
 			continue;
 		}
 		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
