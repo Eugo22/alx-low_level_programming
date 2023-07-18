@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_alphbet - Make the alphabet
@@ -5,7 +6,7 @@
  */
 void print_alphabet(void)
 {
-	int i;
+	char i;
 
 	for (i = 97; i <= 122; i++)
 	{
