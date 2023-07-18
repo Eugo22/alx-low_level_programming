@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_alaphbet - prints the alphabet in lowercase
- *
+ * main - Entry points
+ * Description: the alphabet in lowercase
  * Return: Alway (0) (success)
  */
-void print_alphabet(void)
+void main(void)
 {
 	int i;
-	
+
 	for (i = 97; i <= 122; i++)
 	{
 		_putchar(i);
