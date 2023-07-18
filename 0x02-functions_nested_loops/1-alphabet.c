@@ -4,7 +4,7 @@
  * Description: the alphabet in lowercase
  * Return: Alway (0) (success)
  */
-void main(void)
+void print_alphabet(void)
 {
 	int i;
 
